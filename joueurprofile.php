@@ -4,8 +4,9 @@ $nomprenom = $_POST['nomprenom'] ;
 
 
 
-$sql = "SELECT *  FROM demandelicence
+$sql = "SELECT d.* , c.*  FROM demandelicence d
 
+INNER JOIN  clubs c ON d.club  = c.id_club
 
 
 WHERE nomprenom = ?  " ;

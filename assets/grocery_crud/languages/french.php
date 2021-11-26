@@ -4,24 +4,24 @@
 	$lang['list_actions'] 			= 'Actions';
 	$lang['list_page'] 				= 'Page';
 	$lang['list_paging_of'] 		= 'de';
-	$lang['list_displaying']		= 'Affichage de {start} à {end} de {results} éléments';
-	$lang['list_filtered_from']		= '(filtré de {total_results} entrées au total)';
-	$lang['list_show_entries']		= 'Afficher {paging} entrées';
-	$lang['list_no_items']			= 'Aucun élément à afficher';
-	$lang['list_zero_entries']		= 'Affichage de 0 à 0 de 0 élément';
+	$lang['list_displaying']		= '';
+	$lang['list_filtered_from']		= '(filtre de {total_results} entrees au total)';
+	$lang['list_show_entries']		= 'Afficher {paging} resultats';
+	$lang['list_no_items']			= 'Aucun element à afficher';
+	$lang['list_zero_entries']		= 'Affichage de 0 à 0 de 0 element';
 	$lang['list_search'] 			= 'Recherche';
-	$lang['list_search_all'] 		= 'Tous critères';
-	$lang['list_clear_filtering'] 	= 'Réinitialiser le filtrage';
+	$lang['list_search_all'] 		= 'Tous criteres';
+	$lang['list_clear_filtering'] 	= 'Renitialiser le filtrage';
 	$lang['list_delete'] 			= 'Supprimer';
 	$lang['list_edit'] 				= 'Modifier';
 	$lang['list_paging_first'] 		= 'Premier';
-	$lang['list_paging_previous'] 	= 'Précédent';
+	$lang['list_paging_previous'] 	= 'Precedent';
 	$lang['list_paging_next'] 		= 'Suivant';
 	$lang['list_paging_last'] 		= 'Dernier';
 	$lang['list_loading'] 			= 'En attente...';
 
 	$lang['form_edit'] 				= 'Modifier';
-	$lang['form_back_to_list'] 		= 'Retour à la liste';
+	$lang['form_back_to_list'] 		= 'Retour a la liste';
 	$lang['form_update_changes'] 	= 'Sauvegarder les modifications';
 	$lang['form_cancel'] 			= 'Annuler';
 	$lang['form_update_loading'] 	= 'En attente, mise à jour des changements...';
@@ -42,22 +42,22 @@
 	$lang['delete_error_message'] 	= 'Vos données n\'ont pas été supprimées de la base de données.';
 
 	/* Javascript messages */
-	$lang['alert_add_form']			= 'Les données que vous avez insérées ne sont pas enregistrées.\\nÊtes-vous sûr de vouloir retourner à la liste ?';
-	$lang['alert_edit_form']		= 'Les données que vous avez modifiées ne sont pas enregistrées.\\nÊtes-vous sûr de vouloir retourner à la liste ?';
+	$lang['alert_add_form']			= 'Les donnees que vous avez insérées ne sont pas enregistrees.\\nÊtes-vous sûr de vouloir retourner à la liste ?';
+	$lang['alert_edit_form']		= 'Les donnees que vous avez modifiees ne sont pas enregistrees.\\nÊtes-vous sûr de vouloir retourner à la liste ?';
 	$lang['alert_delete']			= 'Êtes-vous sûr de vouloir supprimer cet enregistrement ?';
 
-	$lang['insert_error']			= 'Une erreur est survenue lors de l\'opération d\'insertion.';
-	$lang['update_error']			= 'Une erreur est survenue lors de l\'opération d\'enregistrement.';
+	$lang['insert_error']			= 'Une erreur est survenue lors de l\'operation d\'insertion.';
+	$lang['update_error']			= 'Une erreur est survenue lors de l\'operation d\'enregistrement.';
 
 	/* Added in version 1.2.1 */
-	$lang['set_relation_title']		= 'Sélectionner {field_display_as}';
+	$lang['set_relation_title']		= 'Selectionner {field_display_as}';
 	$lang['list_record']			= 'Enregistrement';
 	$lang['form_inactive']			= 'inactif';
 	$lang['form_active']			= 'actif';
 
 	/* Added in version 1.2.2 */
 	$lang['form_save_and_go_back']	= 'Enregistrer et retourner à la liste';
-	$lang['form_update_and_go_back']= 'Mettre à jour et retourner à la liste';
+	$lang['form_update_and_go_back']= '';
 
 	/* Upload functionality */
 	$lang['string_delete_file'] 	= "Supprimer le fichier";
@@ -73,7 +73,7 @@
 	/* Added in version 1.3.1 */
 	$lang['list_export'] 	= "Exporter";
 	$lang['list_print'] 	= "Imprimer";
-	$lang['minimize_maximize'] = 'Réduire/Agrandir';
+	$lang['minimize_maximize'] = 'Reduire/Agrandir';
 
 	/* Added in version 1.4 */
 	$lang['list_view'] = 'Voir';

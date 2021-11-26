@@ -8,7 +8,7 @@ $sql = "SELECT *  FROM demandelicence
 
 
 
-WHERE club = ?  " ;
+WHERE club = ? AND 	numerolicence NOT LIKE '' " ;
 $stmt = $con->prepare($sql);
 $stmt->execute(array($club));
 $competitions = $stmt->fetchAll(PDO::FETCH_ASSOC) ; 

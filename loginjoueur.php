@@ -10,12 +10,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 	$row = $stmt->rowcount() ;
 	
 	if($row > 0){
-		$id = $user['licence_id'] ;
+		$id = $user['joueur_id'] ;
 		$username = $user['username'] ;
 		$nomprenom = $user['nomprenom'] ;
 		$password = $user['password'] ;
 	    $adresse = $user['adresse'] ;
-		   $apropos = $user['apropos'] ;
+		  
 		      $datenaissance = $user['datenaissance'] ;
 			  $genre = $user['genre'] ;
 			  $categorie = $user['categorie'] ;
@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 				 $image = $user['image'] ;
 			  
 		echo json_encode(array('joueur_id' => $id , 'username' => $username ,
-'nomprenom' => $nomprenom , 'adresse'=> $adresse   , 'apropos' => $apropos , 'datenaissance' => $datenaissance , 'genre' => $genre ,
+'nomprenom' => $nomprenom , 'adresse'=> $adresse   , 'datenaissance' => $datenaissance , 'genre' => $genre ,
 'categorie' => $categorie , 'poid' => $poid , 'grade' => $grade  , 'club' => $club , 'image' => $image ,
 'password' => $password , 'status' => "sucsses"
 		)) ;
